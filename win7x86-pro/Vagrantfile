@@ -1,0 +1,22 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+
+  config.vm.box = "darkcloud/win7x86-pro-puppet"
+  config.vm.box_url = "http://download.thedarkcloud.net/vagrant/win7x86-pro-puppet.json"
+
+  #Change hostname below
+  config.vm.hostname = "CHANGE-ME"
+
+  config.vm.provision :shell, :path => "setup_requirements.cmd"
+
+  config.vm.provision :shell, inline: "puppet module install puppetlabs-windows --module_repository=http://forge.puppetlabs.com"
+
+  config.vm.provision :puppet do |puppet|
+    puppet.manifest_file  = "base.pp"
+  end
+
+  config.vm.provision :shell, :path => "update.bat"
+
+end
