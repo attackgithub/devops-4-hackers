@@ -8,15 +8,15 @@ This project should help save time and create environments that can be destroyed
 
 ## Current builds
 
-Kali 2.0 x64   Vmware/Virtualbox
-Kali 2.0 x86    Vmware/Virtualbox
+- Kali 2.0 x64   Vmware/Virtualbox
+- Kali 2.0 x86    Vmware/Virtualbox
 
-Windows 7 Pro x64   Vmware/Virtualbox
-Windows 7 Pro x86    Vmware/Virtualbox
+- Windows 7 Pro x64   Vmware/Virtualbox
+- Windows 7 Pro x86    Vmware/Virtualbox
 
 ## Reporting a bug
 
-Stuff breaks, things change and letting me know I might be able to fix it.
+Stuff breaks, things change, letting me know helps.
 
 
 ## How to contribute
@@ -25,16 +25,16 @@ Want to make this project better? So do I give me a hand by doing a push.
 
 ## How to install
 
-1. Clone this reposatory
+1. Clone this repository
 2. Install Vagrant
 3. Install Vmware Workstation/Fusion OR Virtualbox
-4. Modify Vagrent file to you needs
-5. Profit
+4. Modify Vagrent file to your needs
+5. Profit "vagrant up"
 
 ## Upcoming
 
 More operating systems
-Better documentation
+Better documentation - FULL guide.
 
 
 ## Links
