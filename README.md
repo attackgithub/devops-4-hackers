@@ -18,6 +18,8 @@ This project should help save time and create environments that can be destroyed
 
 Stuff breaks, things change, letting me know helps.
 
+- Please create an issue so I can maybe fix it.
+
 
 ## How to contribute
 
@@ -33,8 +35,9 @@ Want to make this project better? So do I give me a hand by doing a push.
 
 ## Upcoming
 
-More operating systems
-Better documentation - FULL guide.
+- More operating systems
+- Better documentation - FULL guide. (Slides, maybe a little youtube)
+- Dare I say "Framework" for pentesting
 
 
 ## Links
