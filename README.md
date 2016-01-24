@@ -14,6 +14,10 @@ This project should help save time and create environments that can be destroyed
 - Windows 7 Pro x64   Vmware/Virtualbox
 - Windows 7 Pro x86    Vmware/Virtualbox
 
+## Issues
+There is a issue with Vagrant and puppet on windows. This issue has been fixed but you must manually apply it until the next major release.
+https://github.com/gavioto/vagrant/commit/d2e80861812203d447ba2055e82e8047ad637135
+
 ## Reporting a bug
 
 Stuff breaks, things change, letting me know helps.
