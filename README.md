@@ -6,6 +6,10 @@ Devops 4 Hackers provides prebuilt virtual machines that can be customized to fi
 
 This project should help save time and create environments that can be destroyed easily without having to worry about taking the time to rebuild a virtual machine.
 
+## Guides
+
+https://youtu.be/et1HJ2Y9ZNw
+
 ## Current builds
 
 - Kali 2.0 x64   Vmware/Virtualbox
